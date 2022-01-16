@@ -1,0 +1,37 @@
+/* Geral*/ 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row {
+    padding: 70px 0;
+}
+p, li {
+    color: #fedee7;
+    font-size: 14px;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+    background-color: #f8b0c4;
+}
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo {
+    width: 120px;
+}
+.navbar-brand {
+    padding: 0;
+    color: rgb(7, 7, 7);
+}
+#navbar-links a {
+    color: rgb(8, 8, 8);
+}
+.navbar-brand:hover {
+    color: rgb(8, 8, 8);
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
