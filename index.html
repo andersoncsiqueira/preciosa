@@ -38,48 +38,68 @@
          </div>
     </header>
     <main>
-        <div class="container-fluid ">
-            <div id="mainSlider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-                    <li data-target="#mainSlider" data-slide-to="1" ></li>
-                    <li data-target="#mainSlider" data-slide-to="2" ></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img  src="img1.jpg" class="d-block w-100" alt="Roupa-Modelo 01">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2> Modelo 01</h2>
-                            <p>Conte conosco sempre</p>
-                            <a href="#" class="main-btn">Ver mais</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img  src="img2.jpg" class="d-block w-100" alt="Roupa-Modelo 01">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2> Modelo 02</h2>
-                            <p>Conte conosco sempre</p>
-                            <a href="#" class="main-btn">Ver mais</a>
-                        </div>
-                    </div>
-                    <div class="carousel-item ">
-                        <img  src="img3.jpg" class="d-block w-100" alt="Roupa-Modelo 01">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2> Modelo 03</h2>
-                            <p>Conte conosco sempre</p>
-                            <a href="#" class="main-btn">Ver mais</a>
-                        </div>
-                    </div>
+        <div class="container-fluid">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previus</span>
-                </a>
-                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Look 1</h5>
+                      <p>Conte sempre conosco!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>look 2</h5>
+                      <p>Conte sempre conosco!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>look3</h5>
+                      <p>Conte sempre conosco!</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div id="about-area">
+                  <div class="container black">
+                      <div class="row">
+                          <div class="col-12">
+                            <h3 class="main-title">Sobre a Preciosa Fashion</h3>
+                          </div>
+                          <div class="col-md-6">
+                            <img src="img4.jpg" alt="Preciosa proprietaria da loja" class="img-fluid">
+                          </div>
+                          <div class="col-md-6">
+                            <h3 class="about-title main-title">Uma loja para você</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id porro mollitia, minima ea voluptatibus autem alias veritatis culpa illum aliquid dicta nostrum, molestias nisi at. Totam at a ea quia.</p>
+                            <p>Nossas qualidades:</p>
+                            <ul class="about-list">
+                                <li><i class="fas fa-check about-i"></i>Estilo</li>
+                                <li><i class="fas fa-check about-i"></i>Preço</li>
+                                <li><i class="fas fa-check about-i"></i>Qualidade</li>
+                                <li><i class="fas fa-check about-i"></i>Cuidado</li>
+                            </ul>
+                        </div>
+                      </div>
+                  </div>
+              </div>
         </div>
     </main>
     <script src="app.js"></script>
