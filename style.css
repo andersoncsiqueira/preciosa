@@ -81,3 +81,35 @@ header, .navbar {
     color: rgb(248, 246, 250);
     padding-right: 30px;
 }
+
+/* Produtos */ 
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(245, 10, 213);
+}
+
+.service-box h4 {
+    font-size: 24px;
+    color: rgb(225, 103, 241);
+    margin-bottom: 20px;
+}
+
+.service-box p {
+    color: black;
+    font-size: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: blueviolet;
+}
