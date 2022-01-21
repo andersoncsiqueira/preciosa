@@ -11,7 +11,7 @@ $(document).ready(function() {
         step: function(state, circle) {
             circle.path.setAttribute('stroke', state.color)
 
-            let value = Math.round(circle.value()*60)
+            let value = Math.round(circle.value()*100)
 
             circle.setText(value)
         }
@@ -31,7 +31,7 @@ $(document).ready(function() {
         step: function(state, circle) {
             circle.path.setAttribute('stroke', state.color)
 
-            let value = Math.round(circle.value()*60)
+            let value = Math.round(circle.value()*50)
 
             circle.setText(value)
         }
@@ -49,7 +49,7 @@ $(document).ready(function() {
         step: function(state, circle) {
             circle.path.setAttribute('stroke', state.color)
 
-            let value = Math.round(circle.value()*60)
+            let value = Math.round(circle.value()*3)
 
             circle.setText(value)
         }
@@ -67,7 +67,7 @@ $(document).ready(function() {
         step: function(state, circle) {
             circle.path.setAttribute('stroke', state.color)
 
-            let value = Math.round(circle.value()*60)
+            let value = Math.round(circle.value()*3)
 
             circle.setText(value)
         }
