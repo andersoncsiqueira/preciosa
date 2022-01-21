@@ -101,7 +101,7 @@ header, .navbar {
 
 .service-box h4 {
     font-size: 24px;
-    color: rgb(225, 103, 241);
+    color: #e167f1;
     margin-bottom: 20px;
 }
 
@@ -112,4 +112,22 @@ header, .navbar {
 
 .service-box:hover > i, .service-box:hover > h4 {
     color: blueviolet;
+}
+
+/* Dados */ 
+
+.circle-box div {
+    padding: 0 40px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#data-area p {
+    color: beige;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 26px;
 }
