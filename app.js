@@ -18,7 +18,7 @@ $(document).ready(function() {
     })
 
     
-    circleA.animate(1.0)
+    
 
     let containerB = document.querySelector('#circleB')
     let circleB = new ProgressBar.Circle(containerB, {
@@ -36,7 +36,7 @@ $(document).ready(function() {
             circle.setText(value)
         }
     })
-    circleB.animate(1.0)
+    
 
     let containerC = document.querySelector('#circleC')
     let circleC = new ProgressBar.Circle(containerC, {
@@ -54,7 +54,7 @@ $(document).ready(function() {
             circle.setText(value)
         }
     })
-    circleC.animate(1.0)
+    
 
     let containerD = document.querySelector('#circleD')
     let circleD = new ProgressBar.Circle(containerD, {
@@ -72,7 +72,35 @@ $(document).ready(function() {
             circle.setText(value)
         }
     })
-    circleD.animate(1.0)
+
+    // Iniciando o loader quando usuario chega no elemento
+
+    let dataAreaOffSet = $('#data-area').offset()
+    let stop = 0
+
+    $(window).scroll(function(e) {
+
+        let scroll = $(window).scrollTop()
+
+        if(scroll > (dataAreaOffSet.top - 750 ) && stop === 0) {
+
+            circleA.animate(1.0)
+            circleB.animate(1.0)
+            circleC.animate(1.0)
+            circleD.animate(1.0)
+
+            stop = 1
+        }
+        
+    })
+
+    // parallax
+
+    setTimeout(function(){
+        $('#data-area').parallax({imageSrc:'paralax.jpg'})
+
+    }, 250)
+
 })
 
 
