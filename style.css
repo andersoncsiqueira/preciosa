@@ -159,3 +159,15 @@ footer {
     color: black;
 }
 
+.contact-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom:  1px solid pink;
+}
+
+.contact-box i {
+    color: powderblue;
+    border: solid 1 px powderblue;
+    border-radius: 50%;
+}
+
