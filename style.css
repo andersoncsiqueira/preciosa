@@ -146,3 +146,13 @@ header, .navbar {
     font-size: 20px;
     text-align: center;
 }
+
+/* footer */ 
+
+.contact-titlep {
+    color: black;
+}
+.contact-tile {
+    color: black;
+}
+
