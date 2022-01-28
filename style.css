@@ -149,6 +149,9 @@ header, .navbar {
 
 /* footer */ 
 
+footer {
+    background-color: rgb(245, 10, 213);
+}
 .contact-titlep {
     color: black;
 }
