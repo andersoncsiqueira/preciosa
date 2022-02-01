@@ -103,5 +103,13 @@ $(document).ready(function() {
 
 })
 
+const btnMobile = document.querySelector('#btn-mobile')
+const nav = document.querySelector('#nav')
+
+const toggleMenu = () => {
+    nav.classList.toggle('active')
+}
+btnMobile.addEventListener('click', toggleMenu)
+
 
 
