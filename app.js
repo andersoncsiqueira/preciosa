@@ -106,10 +106,13 @@ $(document).ready(function() {
 const btnMobile = document.querySelector('#btn-mobile')
 const nav = document.querySelector('#nav')
 
-const toggleMenu = () => {
+const toggleMenu = event => {
+    if(event.type==="touchstart") event.preventDefault()
     nav.classList.toggle('active')
 }
+
 btnMobile.addEventListener('click', toggleMenu)
+btnMobile.addEventListener('touchstart', toggleMenu)
 
 
 
