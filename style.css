@@ -1,6 +1,12 @@
 /* Geral*/ 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');      
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 body {
-    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    font-family: 'Sriracha','Segoe UI', Tahoma,  Verdana, sans-serif;
 }
 .row {
     padding: 70px 0;
@@ -36,6 +42,8 @@ header, .navbar {
     padding: 1rem .8rem;
 }*/
 
+
+
 a {
     text-decoration: none;
     color: rgb(7, 7, 7);
@@ -56,7 +64,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff9f9;
+    background-color:  rgb(245, 10, 213);
     height: 150px;
 }
 
@@ -221,7 +229,7 @@ footer {
     }
 
     #logo, #logo-image {
-        width: 50px;
+        width: 150px;
         
     }
 
@@ -247,7 +255,7 @@ footer {
 
     #hamburger {
         width: 20px;
-        border-top: 1px solid;
+        border-top: 2px solid;
         color: palevioletred;
     }
 
@@ -274,4 +282,10 @@ footer {
         transform: rotate(-135deg);
         top: 7px;
     }
+}
+
+.titulo {
+    font-family: 'Sriracha',sans-serif,'Sriracha';
+    
+    
 }
